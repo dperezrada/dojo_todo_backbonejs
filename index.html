@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8"/>
+		<title>Dojo</title>
+		<script src="http://code.jquery.com/jquery-1.6.2.min.js"></script>
+		<script src="app/libs/underscore-min.js"></script>
+		<script src="app/libs/json2.js"></script>
+		<script src="app/libs/backbone.js"></script>
+		<script src="app/libs/sinon.js"></script>
+	</head>
+
+	<body lang="en">
+	<!-- Templates -->
+		<script type="text/template" id="tarea-template">
+			<h3><%= nombre %></h3>
+			<span class="delete">x</span>
+		</script>
+
+		<div id="tareas">
+			<input type="button" id="boton_tarea" value="Press">
+			<ul></ul>
+		</div>
+
+		<script src="app/libs/app.js"></script>
+		<script src="app/libs/server.js"></script>
+
+
+	</body>
+</html>
